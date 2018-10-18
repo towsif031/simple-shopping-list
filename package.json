@@ -1,0 +1,14 @@
+{
+  "name": "simple-shopping-list",
+  "version": "1.0.0",
+  "description": "A simple shopping list desktop app.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Towsif Ahmed Omi",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^3.0.5"
+  }
+}
