@@ -26,6 +26,20 @@ app.on('ready', function() {
 // Create menu template
 const mainMenuTemplate = [
     {
-        label: 'File'
+        label: 'File',
+        submenu: [
+            {
+                label: 'Add Item'
+            },
+            {
+                label: 'Clear Items'
+            },
+            {
+                label: 'Quit',
+                click() {
+                    app.quit();
+                }
+            }
+        ]
     }
 ];
