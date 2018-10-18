@@ -14,9 +14,9 @@ function submitForm(event) {
     }
 }
 
-const closeBtn = document.getElementById('closeBtn')
+const closeBtn = document.getElementById('closeBtn');
 
 closeBtn.addEventListener('click', function(event) {
-    var window = remote.getCurrentWindow()
-    window.close()
+    var window = remote.getCurrentWindow();
+    window.close();
 })
