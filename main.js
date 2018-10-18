@@ -36,6 +36,8 @@ const mainMenuTemplate = [
             },
             {
                 label: 'Quit',
+                // Check whether Mac or Windows OS for Hotkey function
+                accelerator: process.platform == 'darwin' ? 'Command+Q' : 'Ctrl+Q',
                 click() {
                     app.quit();
                 }
